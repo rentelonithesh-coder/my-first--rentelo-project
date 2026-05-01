@@ -9,6 +9,9 @@ import {
   ChevronUp,
 } from "lucide-react";
 
+import RenteloLogo from '../assests/rtlogo.png';
+import icon from './icon.png';
+
 /* NOTE: In your actual project, uncomment the imports below 
    and remove the Mock Definitions section.
 */
@@ -21,8 +24,7 @@ const useNavigate = () => {
   return (path) => console.log("Navigating to:", path);
 };
 // Using a placeholder logo for the preview
-const RenteloLogo = "src/assests/logo 1 copy.png";
-const icon = "src/assests/logo copy.png";
+
 // ---------------------------------------------------------
 
 // --- Custom SVG Assets for Animation (Optimized for Performance) ---
@@ -470,7 +472,7 @@ const RenteloLinks = () => {
               <img
                 src={RenteloLogo}
                 alt="Rentelo Logo"
-                className="h-16 sm:h-20 w-auto object-contain mb-2"
+                className="h-28 sm:h-20 w-auto object-contain mb-2"
               />
             </motion.div>
 
